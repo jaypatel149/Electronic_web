@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+}
+
+body {
+    background-color: #F9F9F9 !important;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+
+/* navbar */
+
+.electro {
+    width: 7.5rem;
+    height: 3rem;
+}
+
+.top-icon {
+    background-color: #146CDA;
+    color: #FFFFFF;
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    font-size: .5rem;
+    top: 2px;
+    left: 1.5rem;
+}
+
+span#basic-addon2.input-group-text {
+    background-color: #146CDA;
+}
+
+input.form-control {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.searchBox {
+    color: #fff;
+}
+
+.form-control {
+    font-size: .7rem;
+}
+
+.icons {
+    height: .9rem;
+    color: black;
+}
+
+a.nav-link {
+    display: flex;
+    justify-content: center;
+    font-size: .7rem;
+    color: #000000;
+}
+
+.harizatal {
+    width: 100%;
+}
+
+.txt {
+    font-size: .7rem;
+}
+
+select {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.about {
+    top: 24% !important;
+    left: 12%;
+}
+
+.t2 {
+    font-size: 3rem;
+}
+
+.t3 {
+    font-size: 3rem;
+}
+
+.tBox {
+    font-size: 3.5rem;
+}
+
+.Box {
+    border-radius: 2rem;
+    width: 10rem;
+    padding: .5rem;
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+}
+
+.img1 {
+    width: 20.5rem;
+    height: 11.5rem;
+    border-radius: .2rem;
+}
+
+.cart {
+    width: 1rem;
+    height: 1rem;
+}
+
+
+/* ----arrow position---- */
+
+
+/* ---------------------- */
+
+.left-arrow {
+    top: 35%;
+    width: 2rem;
+    padding: 1.7rem .5rem;
+    background-color: #E1FFF1;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    cursor: pointer;
+}
+
+.right-arrow {
+    top: 35%;
+    right: .7%;
+    width: 2rem;
+    padding: 1.7rem .5rem;
+    background-color: #E1FFF1;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+    cursor: pointer;
+}
+
+.backArrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .5rem;
+    border-radius: 50%;
+    border: 1px solid #DEDEDE;
+    background-color: #FFFFFF;
+    top: 43%;
+    left: -6%;
+    cursor: pointer;
+}
+
+.moveArrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .5rem .7rem;
+    border-radius: 50%;
+    border: 1px solid #DEDEDE;
+    background-color: #FFFFFF;
+    top: 43%;
+    right: -6%;
+    cursor: pointer;
+}
+
+.popular {
+    gap: 4rem;
+}
+
+.hrline {
+    width: 40%;
+    margin-left: 29rem;
+}
+
+.hrLine2 {
+    color: blue;
+    margin-left: 29rem;
+    top: 5rem;
+}
+
+.eBox {
+    width: 16rem;
+    border-radius: 3px;
+    background: #F9F9F9;
+}
+
+.product {
+    width: 9.5rem;
+    height: 8rem;
+}
+
+.Ename {
+    font-size: .6rem;
+    color: #146CDA;
+}
+
+.Fname {
+    font-size: .8rem;
+}
+
+.add {
+    font-size: .6rem;
+    width: 3.5rem;
+    text-align: center;
+    padding: .2rem;
+    border-radius: 2rem;
+    color: #146CDA;
+    background-color: #E1FFF1;
+}
+
+.adcart {
+    border-radius: 2rem;
+    font-size: .7rem;
+    color: #fff;
+    width: 9rem;
+    padding: .5rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: #146CDA;
+}
+
+.Mobile {
+    width: 7rem;
+    height: 8rem;
+}
+
+.about2 {
+    top: 30% !important;
+    left: 13%;
+}
+
+.view {
+    border-radius: 2rem;
+    font-size: .9rem;
+    color: #fff;
+    width: 6rem;
+    padding: .4rem;
+    text-align: center;
+    background-color: #000000;
+}
+
+.product2 {
+    width: 8rem;
+    height: 8rem;
+}
+
+.FREEZER {
+    width: 13rem;
+    height: 8rem;
+}
+
+.Camera {
+    width: 9rem;
+    height: 8rem;
+}
+
+.purchage {
+    padding: 0 5.7rem;
+}
+
+
+/* ----------brands-------- */
+
+.bg-c {
+    background-color: #FFFFFF;
+    padding: 0 1vw;
+    width: 85.5vw;
+    height: 16vh;
+}
+
+.bg-c div:first-child {
+    margin-left: auto;
+}
+
+.bg-c div:last-child {
+    margin-right: auto;
+}
+
+.all-logo {
+    margin-right: 5vw;
+}
+
+.all-logo img {
+    opacity: 0.3;
+    filter: grayscale(100%);
+}
+
+.sony-logo {
+    height: 2.5vw;
+    width: 8vw;
+}
+
+.samsung-logo {
+    width: 10vw;
+    height: 1.5vw;
+}
+
+.dell-logo {
+    width: 7.2vw;
+    height: 2.5vw;
+}
+
+.nikon-logo {
+    width: 8.3vw;
+    height: 3.5vw;
+}
+
+.philips-logo {
+    width: 10.3vw;
+    height: 2vw;
+}
+
+.lenvo-logo {
+    width: 10.7vw;
+    height: 2.1vw;
+}
+
+
+/* blog-level */
+
+.card-title {
+    font-size: .7rem;
+    color: #555555;
+}
+
+.card-title2 {
+    font-size: .8rem;
+    color: #BBBBBB;
+}
+
+.card-title3 {
+    font-size: .7rem;
+    color: #888888;
+}
+
+.forword {
+    color: #146CDA;
+}
+
+
+/* footer-level */
+
+.bground {
+    background-color: #146CDA;
+}
+
+span#basic-addon3.input-group-text {
+    background-color: #000000;
+}
+
+.tText {
+    font-size: .8rem;
+    color: #888888;
+}
