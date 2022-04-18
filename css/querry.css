@@ -261,15 +261,23 @@ BELOW 544px (smaller tablet)
         font-size: .4rem;
     }
     .left-arrow {
+        display: none;
         top: 32%;
         padding: 1rem 0.1rem;
         width: 1rem;
     }
     .right-arrow {
+        display: none;
         top: 30%;
         right: 3%;
         width: 1.2rem;
         padding: 1rem 0.5rem;
+    }
+    .backArrow {
+        display: none;
+    }
+    .moveArrow {
+        display: none;
     }
     .purchage {
         padding: .9rem;
